@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/lerka22eklerka/goit-react-hw-01-components/static/css/main.7acaea2f.css",
-    "main.js": "/lerka22eklerka/goit-react-hw-01-components/static/js/main.cb5bece6.js",
+    "main.css": "/lerka22eklerka/goit-react-hw-01-components/static/css/main.7cfbda2f.css",
+    "main.js": "/lerka22eklerka/goit-react-hw-01-components/static/js/main.82041b6f.js",
     "index.html": "/lerka22eklerka/goit-react-hw-01-components/index.html",
-    "main.7acaea2f.css.map": "/lerka22eklerka/goit-react-hw-01-components/static/css/main.7acaea2f.css.map",
-    "main.cb5bece6.js.map": "/lerka22eklerka/goit-react-hw-01-components/static/js/main.cb5bece6.js.map"
+    "main.7cfbda2f.css.map": "/lerka22eklerka/goit-react-hw-01-components/static/css/main.7cfbda2f.css.map",
+    "main.82041b6f.js.map": "/lerka22eklerka/goit-react-hw-01-components/static/js/main.82041b6f.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.cb5bece6.js"
+    "static/css/main.7cfbda2f.css",
+    "static/js/main.82041b6f.js"
   ]
 }
