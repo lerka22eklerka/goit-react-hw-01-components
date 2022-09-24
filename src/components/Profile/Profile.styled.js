@@ -4,7 +4,7 @@ export const Card = styled.div`
   max-width: 300px;
   padding: 0;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 3px 5px 12px -3px rgba(0, 0, 0, 0.75);
