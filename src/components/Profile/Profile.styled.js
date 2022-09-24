@@ -1,30 +1,33 @@
 import styled from "styled-components";
 
 export const Card = styled.div`
-  padding: 100px;
-  background-color: lightblue;
+  max-width: 300px;
+  padding: 0;
+  margin-top: 50px;
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 3px 5px 12px -3px rgba(0, 0, 0, 0.75);
+  background-color: #fff;
+  border: 3px solid rgba(54, 33, 33, 0.038);
+  border-radius: 6px;
 `;
 export const AboutUser = styled.div`
-  padding: 20px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 20px;
-  border: 3px solid rgba(54, 33, 33, 0.038);
-  border-radius: 6px;
   max-width: 300px;
-  margin-bottom: 30px;
-  background-color: #fff;
+  margin-bottom: 0;
 `;
 export const Avatar = styled.img`
   display: block;
   border-radius: 50%;
+  border: #ccc solid 1px;
   width: 100px;
   height: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 `;
 export const Name = styled.p`
   text-align: center;
@@ -50,7 +53,6 @@ export const Stats = styled.ul`
   margin: 0;
   background-color: #f3f6f9;
   border-radius: 0 0 4px 4px;
-  width: 400px;
 `;
 export const BlockList = styled.li`
   display: flex;
@@ -61,6 +63,6 @@ export const BlockList = styled.li`
   width: 100px;
 `;
 export const Title = styled.span`
-  font-size: 16px;
+  font-size: 14px;
   color: #8c8c8c;
 `;

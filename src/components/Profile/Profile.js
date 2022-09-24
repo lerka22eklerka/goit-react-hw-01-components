@@ -1,3 +1,4 @@
+import { PropTypes } from 'prop-types';
 import {
   Card,
   AboutUser,
@@ -16,7 +17,7 @@ export const User = ({ userData: { username, tag, location, avatar, stats: { fol
         <AboutUser>
           <Avatar src={avatar} alt={username} />
           <Name>{username}</Name>
-          <InfoBlock>{tag}</InfoBlock>
+          <InfoBlock>@{tag}</InfoBlock>
           <InfoBlock>{location}</InfoBlock>
         </AboutUser>
 
@@ -37,3 +38,18 @@ export const User = ({ userData: { username, tag, location, avatar, stats: { fol
       </Card>
     );
 };
+
+User.propTypes = {
+  userData: PropTypes.shape({
+    username: PropTypes.string.isRequired,
+    tag: PropTypes.string.isRequired,
+    location: PropTypes.string.isRequired,
+    avatar: PropTypes.string.isRequired,
+    stats: PropTypes.shape({
+      followers: PropTypes.number.isRequired,
+      views: PropTypes.number.isRequired,
+      likes: PropTypes.number.isRequired,
+    }),
+  }),
+};
+
